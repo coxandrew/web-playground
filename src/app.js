@@ -1,4 +1,4 @@
-// => Import base CSS
+// => Import all CSS files here
 // ----------------------------------------------------------------------------
 import "./scss/base.scss";
 
