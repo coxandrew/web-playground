@@ -24,7 +24,7 @@ gulp.task('sass', function() {
 gulp.task('js', function() {
   return gulp.src(jsSources)
     .pipe(rollup({
-      "format": "es",
+      "format": "iife",
       "plugins": [
         require("rollup-plugin-babel")({
           "presets": [["es2015", { "modules": false }]],
