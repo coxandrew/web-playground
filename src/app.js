@@ -16,5 +16,6 @@ import { log } from "./js/utilities";
 
 // => Import specific exercises for practice
 // ----------------------------------------------------------------------------
+// import * as random from "./js/misc/random.js";
 // import "./js/es2015/promises.js";
-
+// import "./js/misc/scratch.js";

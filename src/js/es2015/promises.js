@@ -1,14 +1,16 @@
-export var promise = new Promise((resolve, reject) => {
+import * as random from "../../js/misc/random.js";
+
+export var simplePromise = new Promise((resolve, reject) => {
   setTimeout(() => {
-    if (true) {
+    if (random.getRandomInt(0, 2) === 1) {
       resolve("hello world!");
     } else {
       reject("¡no bueno!");
     }
-  }, 2000);
+  }, 1000);
 });
 
-promise.then((data) => {
+simplePromise.then((data) => {
   console.log(`success: ${data}`);
 }).catch((err) => {
   console.log(`error: ${err}`);
