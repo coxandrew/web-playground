@@ -19,3 +19,4 @@ import { log } from "./js/utilities";
 // import * as random from "./js/misc/random.js";
 // import "./js/es2015/promises.js";
 // import "./js/misc/scratch.js";
+import "./js/secret_archives.js";
