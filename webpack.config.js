@@ -28,6 +28,10 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: "src/index.ejs"
+    }),
+    new HtmlWebpackPlugin({
+      filename: "trello.html",
+      template: "src/trello.html"
     })
   ],
   devServer: {
